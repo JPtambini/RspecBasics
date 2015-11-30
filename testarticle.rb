@@ -19,19 +19,19 @@ it "#body_not_empty" do
 
 end
 it	"#authors_starts_with_q_true"do	
-	expect(article.authors_name_starts_with_q?).to eq(true)
+	expect(@article.authors_name_starts_with_q?).to eq(true)
 end
 it "#authors_start_with_q_false" do
-	expect(article.authors_name_starts_with_q?).to eq(false)
+	expect(@article.authors_name_starts_with_q?).to eq(false)
 end
 it "#title_as_html" do
-	expect(article.title_as_html).to eq("<h1>yo mama</h1>")
+	expect(@article.title_as_html).to eq("<h1>yo mama</h1>")
 end
 it "#body_as_html" do
-	expect(article.body_as_html).to eq("<p>i like it</p>")
+	expect(@article.body_as_html).to eq("<p>i like it</p>")
 end
 it "#author_as_html" do
-	expect(article.author_as_html).to eq("<b>jp</b>")
+	expect(@article.author_as_html).to eq("<b>jp</b>")
 end
 	
 end

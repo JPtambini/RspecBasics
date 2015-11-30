@@ -1,4 +1,4 @@
-require 'transaction.rb'
+require './transaction.rb'
 
 RSpec.configure do |rspec|
 	rspec.color = true
